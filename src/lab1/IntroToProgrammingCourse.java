@@ -15,9 +15,13 @@ public class IntroToProgrammingCourse extends Lab1Superclass{
     private double credits;
 
     public IntroToProgrammingCourse(String courseName, String courseNumber) {
-        this.setCourseName(courseName);
-        this.setCourseNumber(courseNumber);
+        super(courseName, courseNumber);
     }
+
+//    public IntroToProgrammingCourse(String courseName, String courseNumber) {
+//        this.setCourseName(courseName);
+//        this.setCourseNumber(courseNumber);
+//    }
 
     public String getCourseNumber() {
         return courseNumber;
