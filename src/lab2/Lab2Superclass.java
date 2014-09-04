@@ -11,5 +11,7 @@ package lab2;
  * @author mreiff
  */
 public interface Lab2Superclass {
-    
+    public abstract void courseName();
+    public abstract void courseNumber();
+    public abstract void credits();
 }
