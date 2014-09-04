@@ -14,10 +14,14 @@ public class AdvancedJavaCourse extends IntroJavaCourse{
 //    private double credits;
     private String prerequisites;
 
-    public AdvancedJavaCourse(String courseName, String courseNumber) {
-        this.setCourseName(courseName);
-        this.setCourseNumber(courseNumber);
+    public AdvancedJavaCourse(String courseName, String courseNumber, double credits) {
+        super(courseName, courseNumber, credits);
     }
+
+//    public AdvancedJavaCourse(String courseName, String courseNumber) {
+//        this.setCourseName(courseName);
+//        this.setCourseNumber(courseNumber);
+//    }
 
     public String getCapitalizedCourseName() {
         return this.getCourseName().toUpperCase();
@@ -44,22 +48,6 @@ public class AdvancedJavaCourse extends IntroJavaCourse{
             System.exit(0);
         }
         this.setCredits(credits);
-    }
-
-    public String getCourseName() {
-        return courseName;
-    }
-
-    public void setCourseName(String courseName) {
-        this.courseName = courseName;
-    }
-
-    public String getCourseNumber() {
-        return courseNumber;
-    }
-
-    public void setCourseNumber(String courseNumber) {
-        this.courseNumber = courseNumber;
     }
     
 }
