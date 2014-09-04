@@ -10,6 +10,6 @@ package lab2;
  *
  * @author mreiff
  */
-public class Lab2Superclass {
+public interface Lab2Superclass {
     
 }
