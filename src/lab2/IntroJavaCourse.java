@@ -6,39 +6,55 @@ package lab2;
  * @author      your name goes here
  * @version     1.00
  */
-public class IntroJavaCourse implements Lab2Superclass{
-    String courseName;
-    private String courseNumber;
-    private double credits;
-    private String prerequisites;
+public class IntroJavaCourse implements Lab2Superclass2{
+//    String courseName;
+//    private String courseNumber;
+//    private double credits;
+//    private String prerequisites;
+//
+//    public IntroJavaCourse(String courseName, String courseNumber) {
+//        this.courseName = courseName;
+//        this.courseNumber = courseNumber;
+//    }
+//
+//    public String getCourseNumber() {
+//        return courseNumber;
+//    }
+//
+//    public void setCourseNumber(String courseNumber) {
+//        this.courseNumber = courseNumber;
+//    }
+//
+//    public double getCredits() {
+//        return credits;
+//    }
+//
+//    public void setCredits(double credits) {
+//        this.credits = credits;
+//    }
+//
+//    public String getPrerequisites() {
+//        return prerequisites;
+//    }
+//
+//    public void setPrerequisites(String prerequisites) {
+//        this.prerequisites = prerequisites;
+//    }
 
-    public IntroJavaCourse(String courseName, String courseNumber) {
-        this.courseName = courseName;
-        this.courseNumber = courseNumber;
+    public void prerequisites() {
+        System.out.println("Intro To Programming");
     }
 
-    public String getCourseNumber() {
-        return courseNumber;
+    public void courseName() {
+        System.out.println("Intro to Java");
     }
 
-    public void setCourseNumber(String courseNumber) {
-        this.courseNumber = courseNumber;
+    public void courseNumber() {
+        System.out.println("20-304");
     }
 
-    public double getCredits() {
-        return credits;
-    }
-
-    public void setCredits(double credits) {
-        this.credits = credits;
-    }
-
-    public String getPrerequisites() {
-        return prerequisites;
-    }
-
-    public void setPrerequisites(String prerequisites) {
-        this.prerequisites = prerequisites;
+    public void credits() {
+        System.out.println("3");
     }
 
     
