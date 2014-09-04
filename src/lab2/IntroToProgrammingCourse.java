@@ -57,5 +57,17 @@ public class IntroToProgrammingCourse implements Lab2Superclass{
         this.courseName = courseName;
     }
 
+    public void courseName() {
+        System.out.println("Intro To Programming");
+    }
+
+    public void courseNumber() {
+        System.out.println("21-223");
+    }
+
+    public void credits() {
+        System.out.println("4");
+    }
+
     
 }
