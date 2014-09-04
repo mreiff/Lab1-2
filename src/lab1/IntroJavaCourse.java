@@ -12,10 +12,14 @@ public class IntroJavaCourse extends Lab1Superclass{
     private double credits;
     private String prerequisites;
 
-    public IntroJavaCourse(String courseName, String courseNumber) {
-        this.courseName = courseName;
-        this.courseNumber = courseNumber;
+    public IntroJavaCourse(String courseName, String courseNumber, double credits) {
+        super(courseName, courseNumber, credits);
     }
+
+//    public IntroJavaCourse(String courseName, String courseNumber) {
+//        this.courseName = courseName;
+//        this.courseNumber = courseNumber;
+//    }
 
     public String getCourseNumber() {
         return courseNumber;

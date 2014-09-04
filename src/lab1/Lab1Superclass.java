@@ -15,17 +15,23 @@ public abstract class Lab1Superclass {
     private String courseNumber;
     private double credits;
     
+        public Lab1Superclass(String courseName, String courseNumber) {
+        this.courseName = courseName;
+        this.courseNumber = courseNumber;
+    }
+        
+        public Lab1Superclass(String courseName, String courseNumber, double credits){
+            this.courseName = courseName;
+            this.courseNumber = courseNumber;
+            this.credits = credits;
+        }
+        
      public String getCourseName() {
         return courseName;
     }
 
     public void setCourseName(String courseName) {
         this.courseName = courseName;
-    }
-
-    public Lab1Superclass(String courseName, String courseNumber) {
-        this.courseName = courseName;
-        this.courseNumber = courseNumber;
     }
 
     public String getCourseNumber() {
