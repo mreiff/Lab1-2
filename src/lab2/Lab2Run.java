@@ -11,5 +11,7 @@ package lab2;
  * @author mreiff
  */
 public class Lab2Run {
-    
+    public static void main(String[] args) {
+        
+    }
 }
