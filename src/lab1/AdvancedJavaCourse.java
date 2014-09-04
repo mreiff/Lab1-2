@@ -14,8 +14,8 @@ public class AdvancedJavaCourse extends IntroJavaCourse{
 //    private double credits;
     private String prerequisites;
 
-    public AdvancedJavaCourse(String courseName, String courseNumber, double credits) {
-        super(courseName, courseNumber, credits);
+    public AdvancedJavaCourse(String courseName, String courseNumber, double credits, String prerequisites) {
+        super(courseName, courseNumber, credits, prerequisites);
     }
 
 //    public AdvancedJavaCourse(String courseName, String courseNumber) {
