@@ -66,7 +66,7 @@ public class IntroToProgrammingCourse implements Lab2Superclass{
     }
 
     public void credits() {
-        System.out.println("4");
+        System.out.println("2");
     }
 
     
