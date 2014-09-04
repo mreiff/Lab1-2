@@ -10,6 +10,6 @@ package lab2;
  *
  * @author mreiff
  */
-public interface SecondndLabSuperclass2 extends Lab2Superclass{
+public interface SecondLabSuperclass2 extends Lab2Superclass{
     public abstract void prerequisites();
 }
