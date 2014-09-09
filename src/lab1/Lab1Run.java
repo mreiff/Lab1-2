@@ -32,4 +32,5 @@ public class Lab1Run {
         advJava.credits();
         advJava.prerequisites();
     }
+    
 }
