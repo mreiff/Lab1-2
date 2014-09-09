@@ -8,6 +8,43 @@ package lab2;
  */
 public class IntroJavaCourse implements SecondLabSuperclass2{
 
+    private String courseName;
+    private String courseNumber;
+    private double credits;
+    private String prerequisites;
+
+    public IntroJavaCourse(String courseName, String courseNumber,double credits, String prerequisites) {
+        this.courseName = courseName;
+        this.courseNumber = courseNumber;
+        this.credits = credits;
+        this.prerequisites = prerequisites;
+    }
+
+    public String getCourseNumber() {
+        return courseNumber;
+    }
+
+    public void setCourseNumber(String courseNumber) {
+        this.courseNumber = courseNumber;
+    }
+
+    public double getCredits() {
+        return credits;
+    }
+
+    public void setCredits(double credits) {
+        this.credits = credits;
+    }
+
+    public String getPrerequisites() {
+        return prerequisites;
+    }
+
+    public void setPrerequisites(String prerequisites) {
+        this.prerequisites = prerequisites;
+    }
+    
+    
     public void prerequisites() {
         System.out.println("Intro To Programming");
     }
