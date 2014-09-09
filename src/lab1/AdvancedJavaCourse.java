@@ -49,5 +49,24 @@ public class AdvancedJavaCourse extends IntroJavaCourse{
         }
         this.setCredits(credits);
     }
+    @Override
+    public void courseName() {
+        System.out.println("Advanced Java");
+    }
+
+    @Override
+    public void courseNumber() {
+        System.out.println("159-392");
+    }
+
+    @Override
+    public void credits() {
+        System.out.println("4");
+    }
+    
+    @Override
+    public void prerequisites() {
+        System.out.println("Intro to Programming and Intro to Java");
+    }
     
 }

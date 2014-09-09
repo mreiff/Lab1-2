@@ -54,4 +54,8 @@ public abstract class Lab1Superclass {
         }
         this.setCredits(credits);
     }
+        public abstract void courseName();
+        public abstract void courseNumber();
+        public abstract void credits();
+        public abstract void prerequisites();
 }

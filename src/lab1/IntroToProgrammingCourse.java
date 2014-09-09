@@ -14,8 +14,8 @@ public class IntroToProgrammingCourse extends Lab1Superclass{
     private String courseNumber;
     private double credits;
 
-    public IntroToProgrammingCourse(String courseName, String courseNumber) {
-        super(courseName, courseNumber);
+    public IntroToProgrammingCourse(String courseName, String courseNumber, double credits) {
+        super(courseName, courseNumber, credits);
     }
 
 //    public IntroToProgrammingCourse(String courseName, String courseNumber) {
@@ -60,6 +60,26 @@ public class IntroToProgrammingCourse extends Lab1Superclass{
             System.exit(0);
         }
         this.courseName = courseName;
+    }
+
+    @Override
+    public void courseName() {
+        System.out.println("Intro to Programming");
+    }
+
+    @Override
+    public void courseNumber() {
+        System.out.println("143-301");
+    }
+
+    @Override
+    public void credits() {
+        System.out.println("2");
+    }
+
+    @Override
+    public void prerequisites() {
+        System.out.println("None");
     }
 
     

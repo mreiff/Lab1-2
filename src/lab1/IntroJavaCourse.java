@@ -52,4 +52,24 @@ public class IntroJavaCourse extends Lab1Superclass{
         this.setCredits(credits);
     }
 
+    @Override
+    public void courseName() {
+        System.out.println("Intro to Java");
+    }
+
+    @Override
+    public void courseNumber() {
+        System.out.println("109-342");
+    }
+
+    @Override
+    public void credits() {
+        System.out.println("3");
+    }
+    
+    @Override
+    public void prerequisites() {
+        System.out.println("Intro to Programming");
+    }
+
 }
