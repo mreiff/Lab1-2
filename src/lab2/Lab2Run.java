@@ -34,4 +34,5 @@ public class Lab2Run {
         advancedJava.courseNumber(); System.out.println(" is the course number.");
         advancedJava.courseName(); System.out.println(" is the course name.");
     }
+    
 }
