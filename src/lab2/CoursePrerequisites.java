@@ -10,8 +10,6 @@ package lab2;
  *
  * @author mreiff
  */
-public interface Lab2Superclass {
-    public abstract void courseName();
-    public abstract void courseNumber();
-    public abstract void credits();
+public interface CoursePrerequisites extends Course{
+    public abstract void prerequisites();
 }

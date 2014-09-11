@@ -10,6 +10,8 @@ package lab2;
  *
  * @author mreiff
  */
-public interface SecondLabSuperclass2 extends Lab2Superclass{
-    public abstract void prerequisites();
+public interface Course {
+    public abstract void courseName();
+    public abstract void courseNumber();
+    public abstract void credits();
 }

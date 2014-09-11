@@ -10,17 +10,17 @@ package lab1;
  *
  * @author mreiff
  */
-public abstract class Lab1Superclass {
+public abstract class Course {
     private String courseName;
     private String courseNumber;
     private double credits;
     
-        public Lab1Superclass(String courseName, String courseNumber) {
+        public Course(String courseName, String courseNumber) {
         this.courseName = courseName;
         this.courseNumber = courseNumber;
     }
         
-        public Lab1Superclass(String courseName, String courseNumber, double credits){
+        public Course(String courseName, String courseNumber, double credits){
             this.courseName = courseName;
             this.courseNumber = courseNumber;
             this.credits = credits;

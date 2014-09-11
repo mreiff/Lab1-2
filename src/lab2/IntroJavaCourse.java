@@ -6,7 +6,7 @@ package lab2;
  * @author      your name goes here
  * @version     1.00
  */
-public class IntroJavaCourse implements SecondLabSuperclass2{
+public class IntroJavaCourse implements CoursePrerequisites{
 
     private String courseName;
     private String courseNumber;

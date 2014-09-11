@@ -12,9 +12,9 @@ package lab2;
  */
 public class Lab2Run {
     public static void main(String[] args) {
-        Lab2Superclass introToProg = new IntroToProgrammingCourse("Intro To Programming","109-134",2);
-        SecondLabSuperclass2 introToJava = new IntroJavaCourse("Intro to Java","109-594",3,"Intro to Programming");
-        SecondLabSuperclass2 advancedJava = new AdvancedJavaCourse("Advanced Java","159-504",4,"Intro to Programming and Intro to Java");
+        Course introToProg = new IntroToProgrammingCourse("Intro To Programming","109-134",2);
+        CoursePrerequisites introToJava = new IntroJavaCourse("Intro to Java","109-594",3,"Intro to Programming");
+        CoursePrerequisites advancedJava = new AdvancedJavaCourse("Advanced Java","159-504",4,"Intro to Programming and Intro to Java");
         
         System.out.println("Intro To Programming");
         System.out.println("Prerequisites = None");
